@@ -2,6 +2,8 @@ using Photon.Deterministic;
 using Quantum.Collections;
 using Quantum.Profiling;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using static IInteractableTile;
 
 namespace Quantum {
@@ -12,7 +14,8 @@ namespace Quantum {
 
         private static readonly FPVector2 DeathUpForce = new FPVector2(0, FP.FromString("6.5"));
         private static readonly FPVector2 DeathUpGravity = new FPVector2(0, FP.FromString("-12.75"));
-
+        private static readonly List<LiquidType> SwimmableLiquids = new List<LiquidType> {LiquidType.Water, LiquidType.Icewater};
+        
         public struct Filter {
             public EntityRef Entity;
             public Transform2D* Transform;
@@ -576,7 +579,7 @@ namespace Quantum {
                 if (physicsObject->IsUnderwater) {
                     var contacts = f.ResolveHashSet(physicsObject->LiquidContacts);
                     foreach (var contact in contacts) {
-                        if (f.Unsafe.GetPointer<Liquid>(contact)->LiquidType == LiquidType.Water) {
+                        if (SwimmableLiquids.Contains(f.Unsafe.GetPointer<Liquid>(contact)->LiquidType)) {
                             isUnderwater = true;
                             break;
                         }
@@ -913,7 +916,7 @@ namespace Quantum {
 
             var liquidContacts = f.ResolveHashSet(physicsObject->LiquidContacts);
             foreach (var contact in liquidContacts) {
-                if (f.Unsafe.TryGetPointer(contact, out Liquid* liquid) && liquid->LiquidType == LiquidType.Water) {
+                if (f.Unsafe.TryGetPointer(contact, out Liquid* liquid) && SwimmableLiquids.Contains(liquid->LiquidType)) {
                     return;
                 }
             }
@@ -2460,7 +2463,7 @@ namespace Quantum {
             }
 
             var liquid = f.Unsafe.GetPointer<Liquid>(liquidEntity);
-            *doSplash &= (!mario->IsDead || liquid->LiquidType == LiquidType.Water) && !f.Exists(mario->CurrentPipe);
+            *doSplash &= (!mario->IsDead || SwimmableLiquids.Contains(liquid->LiquidType)) && !f.Exists(mario->CurrentPipe);
 
             if (!exit && mario->CurrentPowerupState == PowerupState.MiniMushroom && !mario->IsGroundpounding) {
                 *doSplash = false;
@@ -2477,6 +2480,16 @@ namespace Quantum {
                 case LiquidType.Poison:
                     // Kill, normal death
                     mario->Death(f, entity, false, true, entity);
+                    break;
+                case LiquidType.Icewater:
+                    // Fire Flower and Mini Mushroom avoid the death
+                    if (mario->CurrentPowerupState is PowerupState.FireFlower or PowerupState.MiniMushroom || mario->IsStarmanInvincible) {break;}
+                    // Kill, normal death
+                    mario->Death(f, entity, false, true, entity);
+                    break;
+                case LiquidType.Sewage:
+                    if (mario->CurrentPowerupState is PowerupState.MiniMushroom or PowerupState.MegaMushroom || mario->IsStarmanInvincible) {break;}
+                    mario->Powerdown(f, entity, true, entity);
                     break;
                 }
             }

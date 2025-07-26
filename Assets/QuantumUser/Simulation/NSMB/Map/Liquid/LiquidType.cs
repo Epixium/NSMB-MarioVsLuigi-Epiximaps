@@ -1,5 +1,7 @@
 public enum LiquidType : byte {
     Water,
     Lava,
-    Poison
+    Poison,
+    Icewater,
+    Sewage,
 }

@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: 77e3e29ba6c685c47bc30a1684189ef9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7854426475456260995
+    second: blizzard-snow_0
+  - first:
+      213: 2715320477554238558
+    second: blizzard-snow_1
+  - first:
+      213: 7068446647055972775
+    second: blizzard-snow_2
+  - first:
+      213: -4207909109014213926
+    second: blizzard-snow_3
+  - first:
+      213: 6264843676041006585
+    second: blizzard-snow_4
+  - first:
+      213: 1653590579640224883
+    second: blizzard-snow_5
+  - first:
+      213: -2309925793928997562
+    second: blizzard-snow_6
+  - first:
+      213: 6069089115432385775
+    second: blizzard-snow_7
+  - first:
+      213: 521993117329120940
+    second: blizzard-snow_8
+  - first:
+      213: -8752267716534180561
+    second: blizzard-snow_9
+  - first:
+      213: 7712320012016085239
+    second: blizzard-snow_10
+  - first:
+      213: -7779702312902293286
+    second: blizzard-snow_11
+  - first:
+      213: 9064476806977653789
+    second: blizzard-snow_12
+  - first:
+      213: -7675669567382150965
+    second: blizzard-snow_13
+  - first:
+      213: 1424987343297626950
+    second: blizzard-snow_14
+  - first:
+      213: -6154563429634748759
+    second: blizzard-snow_15
+  - first:
+      213: 4806705135362906037
+    second: blizzard-snow_16
+  - first:
+      213: 5502578960288855254
+    second: blizzard-snow_17
+  - first:
+      213: -6308619452162800870
+    second: blizzard-snow_18
+  - first:
+      213: -4990968402588663627
+    second: blizzard-snow_19
+  - first:
+      213: -2116501023550201888
+    second: blizzard-snow_20
+  - first:
+      213: 1043423730499142429
+    second: blizzard-snow_21
+  - first:
+      213: -8099292486385102798
+    second: blizzard-snow_22
+  - first:
+      213: -6153194690635464104
+    second: blizzard-snow_23
+  - first:
+      213: 8206714480849350894
+    second: blizzard-snow_24
+  - first:
+      213: 2642865802579093538
+    second: blizzard-snow_25
+  - first:
+      213: 8367455429819126671
+    second: blizzard-snow_26
+  - first:
+      213: -7735786073581211214
+    second: blizzard-snow_27
+  - first:
+      213: -7548845401773151681
+    second: blizzard-snow_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: blizzard-snow_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7491003cb87ff290800000000000000
+      internalID: -7854426475456260995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_1
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 76
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e54e6f38691cea520800000000000000
+      internalID: 2715320477554238558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 69
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9729776ca281260800000000000000
+      internalID: 7068446647055972775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 74
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adac316b5f08a95c0800000000000000
+      internalID: -4207909109014213926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 69
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdc6cb712231f650800000000000000
+      internalID: 6264843676041006585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_5
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 81
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37c436ffedbb2f610800000000000000
+      internalID: 1653590579640224883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_6
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 72
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645995b9abe71ffd0800000000000000
+      internalID: -2309925793928997562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 64
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec7983256cb93450800000000000000
+      internalID: 6069089115432385775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_8
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 51
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caed99d79fd7e3700800000000000000
+      internalID: 521993117329120940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 57
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f256cd022e2b98680800000000000000
+      internalID: -8752267716534180561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_10
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 62
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8ea56703aa70b60800000000000000
+      internalID: 7712320012016085239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_11
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 52
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad88c2d07f1f80490800000000000000
+      internalID: -7779702312902293286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_12
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 52
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c8baa51ad7bcd70800000000000000
+      internalID: 9064476806977653789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_13
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 41
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc029e6223b8a7590800000000000000
+      internalID: -7675669567382150965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 41
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643cea6507296c310800000000000000
+      internalID: 1424987343297626950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 21
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9aec2054b29969aa0800000000000000
+      internalID: -6154563429634748759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 32
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b71a558ad8d4b240800000000000000
+      internalID: 4806705135362906037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_17
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 20
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d43e8419661d5c40800000000000000
+      internalID: 5502578960288855254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_18
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 29
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1387b268084378a0800000000000000
+      internalID: -6308619452162800870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_19
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 26
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0018e5ea48cbab0800000000000000
+      internalID: -4990968402588663627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_20
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 16
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ef1a84688da0a2e0800000000000000
+      internalID: -2116501023550201888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_21
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 5
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d134d96ca5cfa7e00800000000000000
+      internalID: 1043423730499142429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_22
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 14
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23096014568899f80800000000000000
+      internalID: -8099292486385102798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_23
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 16
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8528ad6a7067b9aa0800000000000000
+      internalID: -6153194690635464104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_24
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 16
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee0741cd65b14e170800000000000000
+      internalID: 8206714480849350894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_25
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 5
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22821c7e1785da420800000000000000
+      internalID: 2642865802579093538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_26
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 2
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f835848716c2f1470800000000000000
+      internalID: 8367455429819126671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_27
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b137c15d87f4a490800000000000000
+      internalID: -7735786073581211214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blizzard-snow_28
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3a68f24a1d1d3790800000000000000
+      internalID: -7548845401773151681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      blizzard-snow_0: -7854426475456260995
+      blizzard-snow_1: 2715320477554238558
+      blizzard-snow_10: 7712320012016085239
+      blizzard-snow_11: -7779702312902293286
+      blizzard-snow_12: 9064476806977653789
+      blizzard-snow_13: -7675669567382150965
+      blizzard-snow_14: 1424987343297626950
+      blizzard-snow_15: -6154563429634748759
+      blizzard-snow_16: 4806705135362906037
+      blizzard-snow_17: 5502578960288855254
+      blizzard-snow_18: -6308619452162800870
+      blizzard-snow_19: -4990968402588663627
+      blizzard-snow_2: 7068446647055972775
+      blizzard-snow_20: -2116501023550201888
+      blizzard-snow_21: 1043423730499142429
+      blizzard-snow_22: -8099292486385102798
+      blizzard-snow_23: -6153194690635464104
+      blizzard-snow_24: 8206714480849350894
+      blizzard-snow_25: 2642865802579093538
+      blizzard-snow_26: 8367455429819126671
+      blizzard-snow_27: -7735786073581211214
+      blizzard-snow_28: -7548845401773151681
+      blizzard-snow_3: -4207909109014213926
+      blizzard-snow_4: 6264843676041006585
+      blizzard-snow_5: 1653590579640224883
+      blizzard-snow_6: -2309925793928997562
+      blizzard-snow_7: 6069089115432385775
+      blizzard-snow_8: 521993117329120940
+      blizzard-snow_9: -8752267716534180561
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
