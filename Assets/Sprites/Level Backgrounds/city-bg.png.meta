@@ -105,7 +105,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 292
+        width: 300
         height: 256
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -117,6 +117,72 @@ TextureImporter:
       bones: []
       spriteID: aada3fd3f9fd4f990800000000000000
       internalID: -7353006416557003350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city-bg_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 300
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d181ac35c555140a4b631a87c7e991
+      internalID: 1822823999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city-bg_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 256
+        width: 300
+        height: 544
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d49bb645f4f571c41bbf5b73b4e93524
+      internalID: -1675134184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: city-bg_3
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 300
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ae197f270bf2d643a0c2ce1419226db
+      internalID: 526149267
       vertices: []
       indices: 
       edges: []
@@ -136,6 +202,9 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       city-bg_0: -7353006416557003350
+      city-bg_1: 1822823999
+      city-bg_2: -1675134184
+      city-bg_3: 526149267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
