@@ -671,6 +671,7 @@ namespace Quantum.Prototypes {
   public unsafe partial class MovingPlatformPrototype : ComponentPrototype<Quantum.MovingPlatform> {
     public FPVector2 Velocity;
     public QBoolean IgnoreMovement;
+    public QBoolean NotSolid;
     public QBoolean CanCrushEntities;
     partial void MaterializeUser(Frame frame, ref Quantum.MovingPlatform result, in PrototypeMaterializationContext context);
     public override Boolean AddToEntity(FrameBase f, EntityRef entity, in PrototypeMaterializationContext context) {
@@ -681,6 +682,7 @@ namespace Quantum.Prototypes {
     public void Materialize(Frame frame, ref Quantum.MovingPlatform result, in PrototypeMaterializationContext context = default) {
         result.Velocity = this.Velocity;
         result.IgnoreMovement = this.IgnoreMovement;
+        result.NotSolid = this.NotSolid;
         result.CanCrushEntities = this.CanCrushEntities;
         MaterializeUser(frame, ref result, in context);
     }

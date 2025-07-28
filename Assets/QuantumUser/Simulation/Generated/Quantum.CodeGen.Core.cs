@@ -2734,9 +2734,11 @@ namespace Quantum {
     public FPVector2 Velocity;
     [FieldOffset(4)]
     public QBoolean IgnoreMovement;
+    [FieldOffset(8)]
+    public QBoolean NotSolid;
     [FieldOffset(0)]
     public QBoolean CanCrushEntities;
-    [FieldOffset(8)]
+    [FieldOffset(12)]
     [ExcludeFromPrototype()]
     [AllocateOnComponentAdded()]
     [FreeOnComponentRemoved()]
@@ -2746,6 +2748,7 @@ namespace Quantum {
         var hash = 19727;
         hash = hash * 31 + Velocity.GetHashCode();
         hash = hash * 31 + IgnoreMovement.GetHashCode();
+        hash = hash * 31 + NotSolid.GetHashCode();
         hash = hash * 31 + CanCrushEntities.GetHashCode();
         hash = hash * 31 + Queries.GetHashCode();
         return hash;
@@ -2769,6 +2772,7 @@ namespace Quantum {
         var p = (MovingPlatform*)ptr;
         QBoolean.Serialize(&p->CanCrushEntities, serializer);
         QBoolean.Serialize(&p->IgnoreMovement, serializer);
+        QBoolean.Serialize(&p->NotSolid, serializer);
         QList.Serialize(&p->Queries, serializer, Statics.SerializePhysicsQueryRef);
         FPVector2.Serialize(&p->Velocity, serializer);
     }
