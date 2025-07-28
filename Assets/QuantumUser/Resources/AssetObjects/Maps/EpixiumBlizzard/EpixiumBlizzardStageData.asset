@@ -18,11 +18,11 @@ MonoBehaviour:
       Value: 463814534111564612
   ShowAuthorAndComposer: 0
   StageAuthor: Epixium
-  MusicComposer: 
-  TranslationKey: Blizzard
-  GroupingTranslationKey: 
-  DiscordStageImage: 
-  Icon: {fileID: 130006081, guid: f17bde6d64256c648b714be1cfa2d145, type: 3}
+  MusicComposer: Nintendo
+  TranslationKey: level.epixium.blizzard
+  GroupingTranslationKey: default.header.epixium
+  DiscordStageImage: level-blizzard
+  Icon: {fileID: 21300000, guid: b1fbc110ddbcc204f8001b8e892d71b1, type: 3}
   OverrideAutomaticTilemapSettings: 0
   TileDimensions:
     X: 90
@@ -11778,30 +11778,30 @@ MonoBehaviour:
     Flags: 0
   BigStarSpawnpoints:
   - X:
+      RawValue: -376832
+    Y:
       RawValue: 65536
-    Y:
-      RawValue: 98304
-  - X:
-      RawValue: 868352
-    Y:
-      RawValue: 163840
-  - X:
-      RawValue: -589824
-    Y:
-      RawValue: -229376
-  - X:
-      RawValue: 1212416
-    Y:
-      RawValue: -294912
   - X:
       RawValue: 1294336
     Y:
       RawValue: -8192
   - X:
-      RawValue: -376832
-    Y:
       RawValue: 65536
+    Y:
+      RawValue: 98304
+  - X:
+      RawValue: -589824
+    Y:
+      RawValue: -229376
+  - X:
+      RawValue: 868352
+    Y:
+      RawValue: 163840
   - X:
       RawValue: -1064960
     Y:
       RawValue: -98304
+  - X:
+      RawValue: 1212416
+    Y:
+      RawValue: -294912

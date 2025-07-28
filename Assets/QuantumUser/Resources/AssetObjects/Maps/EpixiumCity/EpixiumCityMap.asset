@@ -1902,7 +1902,7 @@ MonoBehaviour:
           X:
             RawValue: 65536
           Y:
-            RawValue: 825753
+            RawValue: 786432
         Rotation:
           RawValue: 0
     - rid: 5707062391561256961
@@ -2524,9 +2524,9 @@ MonoBehaviour:
           X:
             RawValue: 65536
           Y:
-            RawValue: -58982
+            RawValue: -98304
         Rotation:
-          RawValue: 0
+          RawValue: 11796480
     - rid: 7061120607663947777
       type: {class: PhysicsCollider2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
       data:

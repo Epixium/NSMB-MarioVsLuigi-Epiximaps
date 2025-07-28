@@ -19,10 +19,10 @@ MonoBehaviour:
   ShowAuthorAndComposer: 0
   StageAuthor: Epixium
   MusicComposer: Retroniacal
-  TranslationKey: Factory
-  GroupingTranslationKey: 
-  DiscordStageImage: 
-  Icon: {fileID: 761215162782458764, guid: 1c95021a445439d41bf6e50c2a7d4920, type: 3}
+  TranslationKey: level.epixium.factory
+  GroupingTranslationKey: level.header.epixium
+  DiscordStageImage: level-factory
+  Icon: {fileID: 21300000, guid: 836e92dbdfb52934da5e4f762e9fc9c1, type: 3}
   OverrideAutomaticTilemapSettings: 0
   TileDimensions:
     X: 100
@@ -574,8 +574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -1074,8 +1074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -1574,8 +1574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -2074,8 +2074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -2574,8 +2574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -3074,8 +3074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 0
@@ -7074,8 +7074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -7574,8 +7574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -8074,8 +8074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -8574,8 +8574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 0
@@ -18574,8 +18574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -19074,8 +19074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 375327765318183717
@@ -19574,8 +19574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 375327765318183717
@@ -20074,8 +20074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -20138,7 +20138,7 @@ MonoBehaviour:
     Flags: 1
   - Tile:
       Id:
-        Value: 0
+        Value: 528667170620662612
     Rotation: 0
     Flags: 0
   - Tile:
@@ -20574,8 +20574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -21074,8 +21074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -21574,8 +21574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -22074,8 +22074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -22574,8 +22574,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   - Tile:
       Id:
         Value: 337182408009109425
@@ -23074,8 +23074,8 @@ MonoBehaviour:
   - Tile:
       Id:
         Value: 337182408009109425
-    Rotation: 0
-    Flags: 0
+    Rotation: 65534
+    Flags: 1
   BigStarSpawnpoints:
   - X:
       RawValue: -753664

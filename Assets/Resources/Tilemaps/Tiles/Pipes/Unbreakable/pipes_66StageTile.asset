@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: pipes_66StageTile
   m_EditorClassIdentifier: 
   Identifier:
-    Path: 
+    Path: Resources/Tilemaps/Tiles/Pipes/Unbreakable/pipes_66StageTile
     Guid:
-      Value: 0
+      Value: 528667170620662612
   Tile: {fileID: 11400000, guid: a2e1c3df6b4515543b5d3ad976b9d0ac, type: 2}
   CollisionData:
     IsFullTile: 1

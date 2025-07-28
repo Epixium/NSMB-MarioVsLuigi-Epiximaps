@@ -752,9 +752,9 @@ MonoBehaviour:
           X:
             RawValue: -1228800
           Y:
-            RawValue: 924057
+            RawValue: 871628
         Rotation:
-          RawValue: 0
+          RawValue: 11796480
     - rid: 1174430299245772801
       type: {class: PhysicsCollider2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
       data:
@@ -2183,9 +2183,9 @@ MonoBehaviour:
           X:
             RawValue: 491519
           Y:
-            RawValue: 891289
+            RawValue: 851968
         Rotation:
-          RawValue: 0
+          RawValue: 11796480
     - rid: 4862401401436766209
       type: {class: PhysicsCollider2DPrototype, ns: Quantum.Prototypes, asm: Quantum.Engine}
       data:
@@ -3682,7 +3682,7 @@ MonoBehaviour:
           X:
             RawValue: 770048
           Y:
-            RawValue: -222822
+            RawValue: -249036
         Rotation:
           RawValue: 0
     - rid: 8109369137882464257
@@ -3750,7 +3750,7 @@ MonoBehaviour:
           X:
             RawValue: -360448
           Y:
-            RawValue: -157286
+            RawValue: -196608
         Rotation:
           RawValue: 0
     - rid: 8473646932974108673

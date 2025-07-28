@@ -18,11 +18,11 @@ MonoBehaviour:
       Value: 273927917312139800
   ShowAuthorAndComposer: 0
   StageAuthor: Epixium
-  MusicComposer: 
-  TranslationKey: City
-  GroupingTranslationKey: 
-  DiscordStageImage: 
-  Icon: {fileID: -98379216, guid: ab8553aa533762f4289b18cb15f9a889, type: 3}
+  MusicComposer: Nintendo
+  TranslationKey: level.epixium.city
+  GroupingTranslationKey: level.header.epixium
+  DiscordStageImage: level-city
+  Icon: {fileID: 21300000, guid: 121bcee2f0a3272459eab519e9c7fda3, type: 3}
   OverrideAutomaticTilemapSettings: 0
   TileDimensions:
     X: 64
