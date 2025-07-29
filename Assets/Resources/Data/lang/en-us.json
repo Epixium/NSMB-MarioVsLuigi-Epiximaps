@@ -65,6 +65,9 @@
   "ui.about.credits.leveldesign": "Level Design",
   "ui.about.credits.original": "Original Game / Resources",
   "ui.about.credits.assets": "Asset Rippers",
+  "ui.about.credits.modby": "Mod by",
+  "ui.about.credits.modmusic": "Music (Epiximaps)",
+
   "ui.extras.replays.header": "Replays",
   "ui.extras.replays.defaultname": "{playercount}-player game on {map}",
   "ui.extras.replays.defaultname.invalidmap": "{playercount}-player game on an unknown map",

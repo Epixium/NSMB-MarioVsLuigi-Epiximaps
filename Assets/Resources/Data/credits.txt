@@ -1,3 +1,9 @@
+<color=#FF0000>{ui.about.credits.modby}</color>
+Epixium
+
+<color=#FF0000>{ui.about.credits.modmusic}</color>
+Retroniacal
+
 <color=yellow>{ui.about.credits.gameby}</color>
 ipodtouch0218
 
