@@ -20,7 +20,7 @@ MonoBehaviour:
   StageAuthor: Epixium
   MusicComposer: Nintendo
   TranslationKey: level.epixium.blizzard
-  GroupingTranslationKey: default.header.epixium
+  GroupingTranslationKey: level.header.epixium
   DiscordStageImage: level-blizzard
   Icon: {fileID: 21300000, guid: b1fbc110ddbcc204f8001b8e892d71b1, type: 3}
   OverrideAutomaticTilemapSettings: 0
