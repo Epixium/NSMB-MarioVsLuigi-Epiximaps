@@ -27368,7 +27368,7 @@ MonoBehaviour:
     IgnoreMovement:
       Value: 0
     NotSolid:
-      Value: 0
+      Value: 1
     CanCrushEntities:
       Value: 0
 --- !u!114 &2031023911

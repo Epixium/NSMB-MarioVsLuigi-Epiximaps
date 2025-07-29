@@ -63,7 +63,7 @@ MonoBehaviour:
     G: 178
     B: 170
     A: 255
-  HidePlayersOnMinimap: 0
+  HidePlayersOnMinimap: 1
   SpawnBigPowerups: 1
   SpawnVerticalPowerups: 1
   MainMusic:

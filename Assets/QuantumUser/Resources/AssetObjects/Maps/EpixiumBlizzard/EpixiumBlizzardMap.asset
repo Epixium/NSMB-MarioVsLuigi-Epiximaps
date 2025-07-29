@@ -1058,7 +1058,7 @@ MonoBehaviour:
         IgnoreMovement:
           Value: 0
         NotSolid:
-          Value: 0
+          Value: 1
         CanCrushEntities:
           Value: 0
     - rid: 1087529341182541824
